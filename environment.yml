@@ -1,0 +1,35 @@
+name: ssim-ghg-environment
+dependencies:
+  # Requirements for jupyter notebooks
+  - jupyter
+  - notebook
+  - nbconvert
+  - ipykernel
+  - r-IRkernel
+  # Other python requirements
+  - h5py
+  - matplotlib
+  - numpy
+  - pyyaml
+  # Other R requirements
+  - r-EnvStats
+  - r-MASS
+  - r-Matrix
+  - r-abind
+  - r-colorspace
+  - r-dplyr
+  - r-fields
+  - r-ggplot2
+  - r-gplots
+  - r-gridExtra
+  - r-lattice
+  - r-lubridate
+  - r-memuse
+  - r-mvtnorm
+  - r-ncdf4
+  - r-numDeriv
+  - r-plotly
+  - r-plyr
+  - r-repr
+  - r-txtplot
+  - r-yaml
