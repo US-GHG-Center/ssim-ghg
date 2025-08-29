@@ -32,7 +32,7 @@ git clone https://github.com/US-GHG-Center/ssim-ghg.git ssim-ghg
 
 # Downloading input data
 
-Download input data from our [zenodo archive](https://doi.org/10.5281/zenodo.15175769) and decompress it somewhere.
+Download input data from our [zenodo archive](https://doi.org/10.5281/zenodo.14291546) and decompress it somewhere.
 
 # Configuring paths
 Copy over `site_settings.yml.tmpl` to `site_settings.yml` and modify accordingly. Specifying a font for the plots is optional, but you at least need to specify an input and an output folder, and the location of `absco.h5` if you want to run the retrieval example. __Do not add `site_settings.yml` to the git repository__. Since this file contains platform-specific paths, it makes no sense to have different people try to push conflicting versions of this file.
